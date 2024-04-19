@@ -5,7 +5,7 @@ public class ValidarNumero {
         int n;
         Scanner Teclado = new Scanner(System.in);
         System.out.printf("Introduzca un numero");
-        n = teclado.nextInt();
+        n = Teclado.nextInt();
         if (n % 2 == 0) {
             System.out.printf("Es par");
         } else {

@@ -2,7 +2,7 @@
 public class Resta {
 
 	public static void main(String args[]) {
-		Scanner entrada = new Scanner(System.in);
+		scanner entrada = new scanner(System.in);
 
 		System.out.println("Introduzca el primer numero");
 		int numero1 = entrada.nextInt();

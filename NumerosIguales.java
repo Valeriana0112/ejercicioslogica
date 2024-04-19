@@ -5,9 +5,9 @@ public class NumerosIguales{
         int n1;
         int n2;
         System.out.println("Introduce un numero");
-        n1 = teclado .nextInt();
+        n1 = Teclado .nextInt();
         System.out.println("Introduce otro numero");
-        n2 = teclado .nextInt();
+        n2 = Teclado .nextInt();
         if (n1 == n2)
         System.out.println("Son iguales");
         else
